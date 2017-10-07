@@ -1,6 +1,6 @@
 {
   "name": "nrh-data-gov-sg",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "data.gov.sg importgs for node-rest-helper",
   "main": "./dist/index.js",
   "scripts": {
@@ -18,15 +18,14 @@
   "engines": {
     "node": ">=7.2.1"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "coffeelint": "^1.16.0",
     "coffeelint-throw-inside-async": "^0.0.2",
     "coffeescript": "^2",
-    "node-rest-helper": "georgzoeller/node-rest-helper" ,
     "env-cmd": "^5.1.0",
     "mocha": "^3.4.1",
+    "node-rest-helper": "georgzoeller/node-rest-helper",
     "should": "^11.2.1"
   }
 }
