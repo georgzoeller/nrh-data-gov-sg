@@ -50,3 +50,5 @@ describe 'API test', ->
     val.should.have.property('api_info').which.is.an.Object()
     val.should.have.property('items').which.is.an.Array()
     val.should.have.property('region_metadata').which.is.an.Array()
+
+    console.log JSON.stringify val, null, 8
